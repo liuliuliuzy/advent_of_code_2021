@@ -1,14 +1,20 @@
-// declare it first
+// declare it in main.rs first
 mod solutions;
 mod utils;
 
-use crate::solutions::day4::solve_day4_part2;
+use crate::solutions::day7::solve_day7_part2;
 
-fn try_case() {}
+#[allow(dead_code)]
+fn solve(x: i32) -> i32 {
+    match x {
+        y if y < 40 => 40 - y,
+        _ => 0,
+    }
+}
 
 fn main() {
     println!("Hello, advent of code!");
-    println!("{}", solve_day4_part2());
-
-    try_case();
+    println!("The answer is: {}", solve_day7_part2());
+    // try_case();
+    println!("{}", 3i32 / 2i32);
 }
