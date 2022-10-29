@@ -3,7 +3,7 @@
 mod solutions;
 mod utils;
 
-use crate::solutions::day8::solve_day8_part2;
+use crate::solutions::day10::solve_day10_part2;
 
 #[allow(dead_code)]
 fn solve(x: i32) -> i32 {
@@ -15,6 +15,6 @@ fn solve(x: i32) -> i32 {
 
 fn main() {
     println!("Hello, advent of code!");
-    println!("The answer is: {}", solve_day8_part2());
+    println!("The answer is: {}", solve_day10_part2());
     // try_case();
 }
